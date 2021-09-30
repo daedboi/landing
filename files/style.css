@@ -1480,11 +1480,22 @@ transform:rotate(360deg)
   .chain {
     display: none;
   }
+  
+  .social_icon {
+    margin:0 8px 0 8px;
+	width:38px;
+  }
+  
 }
 
 @media only screen and (min-width: 992px) {
   .chainmob {
     display: none;
+  }
+  
+    .social_icon {
+    margin:0 15px 0 15px;
+	width:45px;
   }
 }
 
